@@ -1,0 +1,4 @@
+pydantic
+pyyaml
+ping3
+paho-mqtt
