@@ -16,14 +16,9 @@ class MonitorConfig(BaseModel):
     retry_interval: float
     iteration_interval: float
 
-class Coordinates(BaseModel):
-    latitud: float
-    longitud: float
-
 class ClientConfig(BaseModel):
-    id_cliente: str
-    id_sbc: int
-    coordenadas: Coordinates
+    id_client: str
+    id_sbc: str
 
 class ConfigSchema(BaseModel):
     mqtt: MqttConfig

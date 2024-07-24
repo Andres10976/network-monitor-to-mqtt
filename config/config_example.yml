@@ -1,8 +1,8 @@
 mqtt:
-  usuario: "your_username"
-  contrasena: "your_password"
-  url: "mqtt.example.com"
-  puerto: 8883
+  usuario: xd
+  contrasena: xdddd
+  url: idk
+  puerto: 1883
 
 devices:
   - ip: "192.168.0.34"

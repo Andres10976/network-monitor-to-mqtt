@@ -5,7 +5,7 @@ def save_to_file(data, file_path):
     try:
         with open(file_path, 'wb') as file:
             pickle.dump(data, file)
-        logging.info(f"Data successfully saved to {file_path}")
+        #logging.info(f"Data successfully saved to {file_path}")
     except Exception as e:
         logging.error(f"Error saving data to {file_path}: {e}")
 
